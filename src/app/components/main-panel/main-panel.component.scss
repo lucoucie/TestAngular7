@@ -1,0 +1,54 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #DFD7CA;
+  font-size: 17px;
+  span {
+    vertical-align: sub;
+    margin-left: 8px;
+  }
+}
+.people-liking-table {
+  margin-top: 100px;
+}
+td, th {
+  border: 1px solid #DFD7CA;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #F8F5F0;
+}
+
+tr {
+    height: 40px;
+    margin: 10px;
+    border-bottom: 1px solid #DFD7CA;
+}
+section {
+  padding: 10px;
+  .detail-body {
+    border-left: 6px solid #DFD7CA;
+    padding: 12px;
+    p {
+      font-size: 19px;
+      color: #3E3F39;
+    }
+  }
+}
+.person-img {
+  border-radius: 25px;
+  width: auto;
+  height: 150px;
+}
+
+.reviews {
+  button{
+    color: #fff;
+    background-color: #3E3F39;
+    border-color: #3E3F39;
+    padding: 16px 44px;
+    border-radius: 10px;
+  }
+}
